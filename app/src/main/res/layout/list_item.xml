@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/idTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        style="@style/TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Наименование"
+        style="@style/TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:id="@+id/weightTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вес (кг)"
+        style="@style/TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:id="@+id/priceTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цена (руб)"
+        style="@style/TextAppearance.AppCompat.Medium"/>
+
+
+</LinearLayout>
